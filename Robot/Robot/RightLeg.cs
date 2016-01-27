@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Robot
 {
-    public class Body
+    class RightLeg : Leg
     {
-        public void titaniumAlloyShell()
+        public void hiddenGunHolster()
         {
-            Console.WriteLine("Indestructible");
+            Console.WriteLine("Packing Heat");
         }
-
-    }
 }

@@ -10,7 +10,11 @@ namespace Robot
     {
         public void move()
         {
-            Console.WriteLine();
+        }
+        public void rocketPropulsion()
+        {
+            Console.WriteLine("Vrooom!");
         }
     }
+}
 }

@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Robot
 {
-    public class Body
+    class RightArm : Arm
     {
-        public void titaniumAlloyShell()
+        bool fire = true;
+        public void fireCannon()
         {
-            Console.WriteLine("Indestructible");
+            fire = true;
+            Console.WriteLine("BooM!!");
         }
 
     }
